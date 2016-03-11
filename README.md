@@ -4,7 +4,7 @@ Absolute Difference
 
 > Computes the [absolute difference][absolute-difference] of two real numbers.
 
-The [absolute difference][absolute-difference] of two real `numbers` is defined as
+The [absolute difference][absolute-difference] of two real `numbers` is defined as the absolute value of their difference.
 
 <div class="equation" align="center" data-raw-text="|\Delta| = | x - y |" data-equation="eq:absolute_difference">
 	<img src="https://cdn.rawgit.com/math-io/absolute-difference/1a2433f7ec8062b12d02166f6b04f01a469b85db/docs/img/eqn.svg" alt="Absolute difference">
