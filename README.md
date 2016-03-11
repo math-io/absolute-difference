@@ -6,7 +6,7 @@ Absolute Difference
 
 The [absolute difference][absolute-difference] of two real `numbers` is defined as
 
-<div class="equation" align="center" data-raw-text="\|\delta\| = \| x - y \|" data-equation="eq:absolute_difference">
+<div class="equation" align="center" data-raw-text="|\Delta| = | x - y |" data-equation="eq:absolute_difference">
 	<img src="https://cdn.rawgit.com/math-io/absolute-difference/548b01b7593d11e6679cb7487aecdb637deb5144/docs/img/eqn.svg" alt="Absolute difference">
 	<br>
 </div>
