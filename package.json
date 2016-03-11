@@ -1,0 +1,56 @@
+{
+  "name": "math-absolute-difference",
+  "version": "0.0.0",
+  "description": "Computes the absolute difference of two real numbers.",
+  "author": {
+    "name": "Athan Reines",
+    "email": "kgryte@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Athan Reines",
+      "email": "kgryte@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test": "tape \"./test/*.js\"",
+    "test-cov": "istanbul cover --dir ./reports/coverage --report lcov tape -- \"./test/*.js\"",
+    "coverage": "istanbul cover --dir ./reports/codecov/coverage --report lcovonly tape -- \"./test/*.js\" && cat ./reports/codecov/coverage/lcov.info | codecov && rm -rf ./reports/codecov"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/math-io/absolute-difference.git"
+  },
+  "keywords": [
+		"compute.io",
+		"compute-io",
+		"computation",
+		"compute",
+		"math",
+		"mathematics",
+		"math-io",
+		"math.io",
+		"absolute",
+		"difference",
+		"abs",
+		"diff",
+		"error",
+		"distance",
+		"dist",
+		"numbers"
+	],
+  "bugs": {
+    "url": "https://github.com/math-io/absolute-difference/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "codecov": "1.x.x",
+    "istanbul": "^0.4.1",
+    "jshint": "2.x.x",
+    "jshint-stylish": "2.x.x",
+    "tap-spec": "4.x.x",
+    "tape": "4.x.x"
+  },
+  "license": "MIT"
+}
