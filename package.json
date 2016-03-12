@@ -1,6 +1,6 @@
 {
   "name": "math-absolute-difference",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Computes the absolute difference of two real numbers.",
   "author": {
     "name": "Athan Reines",
